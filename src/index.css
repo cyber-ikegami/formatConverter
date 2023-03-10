@@ -9,8 +9,10 @@ body {
 
 html,body {
   width: 100%;
+  min-width: 840px;
   height: 100%;
   position: relative;
+  box-sizing: border-box;
 }
 
 #root {
@@ -20,6 +22,7 @@ html,body {
   font-size: 0;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 code {
